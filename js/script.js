@@ -3,10 +3,10 @@ var show = true;
 function createGallery() {
     var containerNew = document.getElementById("container");
     var cardColumn = document.createElement("div");
-    cardColumn.className = "card-columns";
-    cardColumn.style.columnGap="5vw";
-    cardColumn.style.marginTop="5vh";
-    cardColumn.style.marginBottom="5vh";
+    cardColumn.className = "card-deck";
+    //cardColumn.style.columnGap="5vw";
+    //cardColumn.style.marginTop="5vh";
+    //cardColumn.style.marginBottom="5vh";
     containerNew.appendChild(cardColumn);
     for (var index = 1; index <= data.length; index++) {
         var newCard = document.createElement("div");
@@ -93,5 +93,70 @@ function createFooter() {
 $(document).ready(function () {
     createGallery();
     createFooter();
-    
+    //var container = document.querySelector("card-columns");
+    var gender = document.getElementById("gender");
+    var female = document.getElementById("female");
+    var male = document.getElementById("male");
+    var ages = document.getElementById("ages");
+    var ages20 = document.getElementById("ages20");
+    var ages30 = document.getElementById("ages30");
+    $(".card-deck").sortable();
+    female.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            if(data[index-1].gender=="male"){
+                remove.style.display="none";
+            }
+            else if (data[index-1].gender=="female"){
+                remove.style.display="block";
+            }
+        }
+    }
+    gender.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            remove.style.display="block";   
+        }
+    }
+    male.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            if(data[index-1].gender=="female"){
+                remove.style.display="none";
+            }
+            else if (data[index-1].gender=="male"){
+                remove.style.display="block";
+            }
+        }
+    }
+    ages.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            remove.style.display="block";   
+        }
+    }
+    ages20.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            if(Number(data[index-1].age)>=20 && Number(data[index-1].age)<=30){
+                remove.style.display="block";
+            }
+            else{
+                remove.style.display="none";
+            }
+               
+        }
+    }
+    ages30.onclick = function (e) {
+        for (var index = 1; index <= data.length; index++) {
+            var remove = document.getElementById("galleryCard" + index);
+            if(Number(data[index-1].age)>=31 && Number(data[index-1].age)<=40){
+                remove.style.display="block";
+            }
+            else{
+                remove.style.display="none";
+            }
+               
+        }
+    } 
 });

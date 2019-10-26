@@ -1,12 +1,26 @@
-@media (min-width: 576px) {
-    .card-columns {
-        column-count: 2;
-    }
-}
 
-@media (min-width: 992px) {
-    .card-columns {
-        column-count: 4;
-    }
-}
+.card-deck {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap; 
+  }
+  .card-deck .card {
+    display: block;
+    flex-basis: 100%; /* change this value for each breakpoint*/
+  }
+  
+  @media screen and (min-width: 600px) {
+    .card-deck .card {
+        display: block;
+        flex-basis: 40%; /* change this value for each breakpoint*/
+      }
+    
+  }
+  @media screen and (min-width: 1200px) {
 
+    .card-deck .card {
+        display: block;
+        flex-basis: 22%; /* change this value for each breakpoint*/
+      }
+}
+  
