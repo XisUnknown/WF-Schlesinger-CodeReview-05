@@ -1,0 +1,145 @@
+var data = [{
+    "id": "1",
+    "pic":"./img/pic1.jpg",
+    "name": "Mary",
+    "age": "25",
+    "gender":"female",
+    "location": "Vienna",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "2",
+    "pic":"./img/pic2.jpg",
+    "name": "Sherry",
+    "age": "26",
+    "gender":"female",
+    "location": "Vienna",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "3",
+    "pic":"./img/pic3.jpg",
+    "name": "Michael",
+    "age": "35",
+    "gender":"male",
+    "location": "Vienna",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "4",
+    "pic":"./img/pic4.jpg",
+    "name": "Kate",
+    "age": "22",
+    "gender":"female",
+    "location": "Graz",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "5",
+    "pic":"./img/pic5.jpg",
+    "name": "Ashley",
+    "age": "25",
+    "gender":"female",
+    "location": "Graz",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "6",
+    "pic":"./img/pic6.jpg",
+    "name": "Maya",
+    "age": "22",
+    "gender":"female",
+    "location": "Linz",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "7",
+    "pic":"./img/pic7.jpg",
+    "name": "John",
+    "age": "35",
+    "gender":"male",
+    "location": "Salzburg",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "8",
+    "pic":"./img/pic8.jpg",
+    "name": "Lin",
+    "age": "20",
+    "gender":"female",
+    "location": "Innsbruck",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "9",
+    "pic":"./img/pic9.jpg",
+    "name": "Anna",
+    "age": "28",
+    "gender":"female",
+    "location": " Vienna",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "10",
+    "pic":"./img/pic10.jpg",
+    "name": "John",
+    "age": "30",
+    "gender":"male",
+    "location": "Eisenstadt",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "11",
+    "pic":"./img/pic11.jpg",
+    "name": "Susan",
+    "age": "20",
+    "gender":"female",
+    "location": "Vienna",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "12",
+    "pic":"./img/pic12.jpg",
+    "name": "Luke",
+    "age": "28",
+    "gender":"male",
+    "location": "Berlin",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "13",
+    "pic":"./img/pic13.jpg",
+    "name": "Jake",
+    "age": "23",
+    "gender":"male",
+    "location": "Bregenz",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "14",
+    "pic":"./img/pic14.jpg",
+    "name": "Alex",
+    "age": "25",
+    "gender":"male",
+    "location": "Klagenfurt",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "15",
+    "pic":"./img/pic15.jpg",
+    "name": "Robert",
+    "gender":"male",
+    "age": "22",
+    "location": "Bern",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+},{
+    "id": "16",
+    "pic":"./img/pic16.jpg",
+    "name": "Moe",
+    "age": "21",
+    "gender":"male",
+    "location": "Klagenfurt",
+    "motto":"carpe diem",
+    "hobbies": "Dating, Parties, Coding"
+}]
